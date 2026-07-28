@@ -15,7 +15,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: nginx
-        image: hprmpm/kubernetes-cicd:202607281348
-        ports:
-        - containerPort: 80
+        - name: nginx
+          image: hprmpm/kubernetes-cicd:202607281456
+          ports:
+            - containerPort: 80
